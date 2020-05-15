@@ -23,11 +23,11 @@ class Queue:
 	def get_queue(self):
 		return self.items
 		
-q = Queue()
-print(q.isEmpty())
-q.enqueue("Song 1")
-q.enqueue("Song 2")
-q.enqueue("Song 3")
-print(q.get_queue())
-q.dequeue()
-print(q.get_queue())
+#q = Queue()
+#print(q.isEmpty())
+#q.enqueue("Song 1")
+#q.enqueue("Song 2")
+#q.enqueue("Song 3")
+#print(q.get_queue())
+#q.dequeue()
+#print(q.get_queue())
