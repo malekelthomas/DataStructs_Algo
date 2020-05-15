@@ -11,10 +11,10 @@ class Queue:
 	def peek(self):
 		return self.items[0]
 	
-	def add(self, data):
+	def enqueue(self, data):
 		self.items.append(data)
 	
-	def remove(self):
+	def dequeue(self):
 		self.items.pop(0)
 		
 	def isEmpty(self):
@@ -25,9 +25,9 @@ class Queue:
 		
 q = Queue()
 print(q.isEmpty())
-q.add("Song 1")
-q.add("Song 2")
-q.add("Song 3")
+q.enqueue("Song 1")
+q.enqueue("Song 2")
+q.enqueue("Song 3")
 print(q.get_queue())
-q.remove()
+q.dequeue()
 print(q.get_queue())
