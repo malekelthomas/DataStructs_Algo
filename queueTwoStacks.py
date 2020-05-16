@@ -73,3 +73,4 @@ class MyQueue:
 # print(m.get_queue())
 # m.dequeue()
 # print(m.get_queue())
+# print(m.peek())
